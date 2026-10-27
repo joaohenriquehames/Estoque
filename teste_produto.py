@@ -16,3 +16,16 @@ p2.tipo = "Alimento"
 
 print(p1.listar_produtos())
 print(p2.listar_produtos())
+
+p1.entrada(30)
+print(p1.listar_produtos()) 
+
+p1.saida(15)
+print(p1.listar_produtos())
+
+if p1.saida(100):
+    print("Saída realizada com sucesso!")
+else:
+    print("Não foi possível realizar a saída. Quantidade insuficiente.")
+
+print(p1.quantidade) 

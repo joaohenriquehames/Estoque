@@ -23,3 +23,13 @@ class produto:
             return "Repor"
         else:
             return "ok"
+
+    def entrada(self, qtd):
+        self.quantidade = ( self.quantidade + qtd)
+
+    def saida(self, qtd):
+        if qtd <= self.quantidade:
+            self.quantidade = (self.quantidade - qtd)
+            return True
+        return False
+        
