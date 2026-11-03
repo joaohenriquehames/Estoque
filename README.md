@@ -15,6 +15,6 @@ Este projeto controla o estoque de produtos de um almoxarifado, registrando entr
 - almoxarifado.py: contém a classe Almoxarifado e seus métodos de controle de estoque.
 - teste_almoxarifado.py: realiza os testes do sistema.
 - usuarios/papeis.py: Define os cargos do sistema (solicitante, supervisor, almoxarifado, admin) e a lista de permissões de cada um.
-- Classe usuario que gere os dados da pessoa, o encriptamento seguro da palavra-passe (hash) e a verificação de permissões[cite: 4].
+- Classe usuario que gere os dados da pessoa, o encriptamento seguro da palavra-passe (hash) e a verificação de permissões.
 - testes/teste_usuario.py: Script de testes automatizados para validar o funcionamento da clase usuario.
 
