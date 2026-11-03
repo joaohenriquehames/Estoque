@@ -1,8 +1,8 @@
 
 # Back-end do Almoxarifado
 
-**Aluno:Joao Henrique Hames de Campos**  
-**Turma:Tecnico em desenvolvimento de sistemas Vespertino**
+**Aluno: Joao Henrique Hames de Campos**  
+**Turma: Tecnico em desenvolvimento de sistemas Vespertino**
 
 ## Sobre o projeto
 
