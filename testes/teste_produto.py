@@ -1,4 +1,4 @@
-from produto import produto
+from produtos import produto
 
 p1 = produto("001", "Coca-Cola", 10.99, 10, "Alimento")
 p1.codigo = "001"

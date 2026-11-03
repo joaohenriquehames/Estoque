@@ -1,6 +1,5 @@
-
-from produto import Produto
-from almoxarifado import Almoxarifado
+from produtos.produto import Produto
+from produtos.almoxarifado import Almoxarifado
 
 almox = Almoxarifado("Lages")
 
