@@ -19,7 +19,7 @@ print("Saída P999:", almox.saida("P999", 1))
 print("=== Estoque ===")
 for item in almox.listar():
     print(
-        item["codigo"], "|",
+        item["codigos"], "|",
         item["quantidade"], "|",
         item["preco"], "|",
         item["situacao"]

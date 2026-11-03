@@ -9,10 +9,10 @@ PERMISSOES = {
     "supervisor": [
         "ver_produtos",
         "abrir_pedido",
-        "aprovar_pedido",  # só os pedidos em que ele é o supervisor
+        "aprovar_pedido",  # só os p    edidos em que ele é o supervisor
     ],
     "almoxarifado": [
-        "ver_produtos",
+        "ver_produto",
         "abrir_pedido",
         "cadastrar_produto",
         "movimentar_estoque",
