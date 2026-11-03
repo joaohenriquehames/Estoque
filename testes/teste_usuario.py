@@ -1,8 +1,8 @@
-from usuarios import Usuarios
+from usuarios import Usuario
 
-ana = Usuarios("1001", "Ana Souza", "senai123", ["solicitante"], supervisor="1002")
-bruno = Usuarios("1002", "Bruno Lima", "senai123", ["supervisor", "solicitante"])
-carla = Usuarios("1003", "Carla Mendes", "senai123", ["almoxarifado"])
+ana = Usuario("1001", "Ana Souza", "senai123", ["solicitante"], supervisor="1002")
+bruno = Usuario("1002", "Bruno Lima", "senai123", ["supervisor", "solicitante"])
+carla = Usuario("1003", "Carla Mendes", "senai123", ["almoxarifado"])
 
 print("=== Senha ===")
 print("Senha certa:", ana.conferir_senha("senai123"))
