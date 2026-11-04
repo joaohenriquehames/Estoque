@@ -1,4 +1,4 @@
-from usuarios import Usuario
+from usuarios.usuario import Usuario
 
 ana = Usuario("1001", "Ana Souza", "senai123", ["solicitante"], supervisor="1002")
 bruno = Usuario("1002", "Bruno Lima", "senai123", ["supervisor", "solicitante"])
