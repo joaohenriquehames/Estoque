@@ -19,3 +19,9 @@ Este projeto controla o estoque de produtos de um almoxarifado, registrando entr
 - testes/teste_usuario.py: Script de testes automatizados para validar o funcionamento da clase usuario.
 - controle_acesso: Controla os acessos
 - teste_controle_acesso: : realiza os testes
+- solicitacao.py : realiza a solicitaçao 
+- teste_solicitacao.py : você copia daqui e roda
+
+## Pastas
+
+Produtos | Solicitações | Testes | Usuarios
