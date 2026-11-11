@@ -1,5 +1,9 @@
 # testes/teste_solicitacao.py
 # Confere o caminho de uma solicitação de compra
+import sys
+import os
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from solicitacoes.solicitacao import SolicitacaoCompra
 from usuarios.usuario import Usuario
