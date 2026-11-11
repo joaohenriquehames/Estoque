@@ -25,3 +25,13 @@ Este projeto controla o estoque de produtos de um almoxarifado, registrando entr
 ## Pastas
 
 Produtos | Solicitações | Testes | Usuarios
+
+## Como Executar os Testes
+Para rodar a suíte de testes da solicitação de compra, execute o comando abaixo no terminal a partir da raiz do projeto:
+
+```bash
+python -m testes.teste_almoxarifado
+python -m testes.teste_teste_controle_acesso
+python -m testes.teste_produto
+python -m testes.teste_usuario
+python -m testes.teste_solicitacao
